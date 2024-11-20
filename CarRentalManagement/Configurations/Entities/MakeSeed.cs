@@ -1,5 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using CarRentalManagement.Domain;
+﻿using CarRentalManagement.Domain;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace CarRentalManagement.Configurations.Entities

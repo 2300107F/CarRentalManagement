@@ -1,7 +1,6 @@
 ﻿using CarRentalManagement.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System.Diagnostics.CodeAnalysis;
 
 namespace CarRentalManagement.Configurations.Entities
 {

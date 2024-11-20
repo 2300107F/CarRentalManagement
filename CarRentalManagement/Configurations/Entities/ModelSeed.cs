@@ -9,7 +9,7 @@ namespace CarRentalManagement.Configurations.Entities
         public void Configure(EntityTypeBuilder<Model> builder)
         {
             builder.HasData(
-                new Model 
+                new Model
                 {
                     Id = 1,
                     Name = "i4",
@@ -33,7 +33,7 @@ namespace CarRentalManagement.Configurations.Entities
                     Name = "Prius",
                     DateCreated = DateTime.Now,
                     DateUpdated = DateTime.Now,
-                    CreatedBy= "System",
+                    CreatedBy = "System",
                     UpdatedBy = "System",
                 },
                 new Model
