@@ -1,6 +1,9 @@
 ﻿using CarRentalManagement.Configurations.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using CarRentalManagement.Data;
+
+
 namespace CarRentalManagement.Data
 {
     public class CarRentalManagementContext(DbContextOptions<CarRentalManagementContext> options) :
@@ -18,6 +21,9 @@ namespace CarRentalManagement.Data
             builder.ApplyConfiguration(new ColourSeed());
             builder.ApplyConfiguration(new MakeSeed());
             builder.ApplyConfiguration(new ModelSeed());
+            builder.ApplyConfiguration(new RoleSeed());
+            builder.ApplyConfiguration(new UserRoleSeed());
+            builder.ApplyConfiguration(new UserSeed());
         }
     }
 }
